@@ -97,12 +97,13 @@ $(document).on("click", ".commentsLink", function(event){
 });
 // added GS 2/1 to show new comments when posting
 database.ref("brewery/").on("child_changed", function(childSnapshot) { 
-    var newRecord=childSnapshot.val();
+    var newRecord = childSnapshot.val();
     var comments = childSnapshot.val().comments;
     var key = newRecord.key;
-    var commentArr = Object.values(comments)
+    var commentArr = Object.values(comments);
+    var number = commentArr.length - 1; // selects newest comment for brewery only
     
-    $(".brewComments"+key).append("<div><i class='fas fa-comment-alt'></i> <span class='commentHead'>by: "+commentArr[i].name+", on "+commentArr[i].date+"</span><p class='comment'>&quot;"+commentArr[i].comment+"&quot;</p></div><br>");
+    $(".brewComments"+key).append("<div><i class='fas fa-comment-alt'></i> <span class='commentHead'>by: "+commentArr[number].name+", on "+commentArr[number].date+"</span><p class='comment'>&quot;"+commentArr[number].comment+"&quot;</p></div><br>");
 });
 
 // API beer detail
