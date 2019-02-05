@@ -1,0 +1,540 @@
+{
+  "brewery" : {
+    "-LXR-YjBl1vdhQr0ouQd" : {
+      "address" : "1117 16th St",
+      "beers" : {
+        "-LXV4Rje5n-vwLgJSoaG" : {
+          "beerName" : "Immaculate IPA",
+          "description" : "This is the Abbey Brewing Co's special house recipe. This beer is amber in color with a balance between malt grown in the Midwest and hops grown in the Pacific Northwest. The Abbey IPA is the favorite of the locals for its refreshing, hoppy finish and its smooth flavor.",
+          "key" : "-LXV4Rje5n-vwLgJSoaG",
+          "type" : "IPA"
+        },
+        "-LXV4Rk-jtmZ_eqykm9U" : {
+          "beerName" : "Father Theodore’s Stout",
+          "description" : "This house recipe Stout is deep black in color and has a chocolate, coffee, roasted toffee and anise flavors. It is rich and delicious and is a meal in itself.",
+          "key" : "-LXV4Rk-jtmZ_eqykm9U",
+          "type" : "Stout"
+        },
+        "-LXV4RkDXXao5FI3EEPt" : {
+          "beerName" : "Brother Dan’s Double",
+          "description" : "This house recipe Double is like the beers the monks brewed centeries ago to sustain them during the Lenten fast. This beer is light brown in color with hints of raisons, chestnuts, chocolate and candied fruits.",
+          "key" : "-LXV4RkDXXao5FI3EEPt",
+          "type" : "Stout"
+        },
+        "-LXV4gt4OE003q6uPNTE" : {
+          "beerName" : "Brother Aaron’s Quadruple",
+          "description" : "This strong house recipe, Quadruple Ale is reminiscent of the winter ales brewed in Belgium Monasteries centuries ago. This Beer is brown in color and has a complexity of flavors ranging from dark chocolate to caramelized raisns with a hint of toffee.",
+          "key" : "-LXV4gt4OE003q6uPNTE",
+          "type" : "Stout"
+        }
+      },
+      "city" : "Miami Beach",
+      "key" : "-LXR-YjBl1vdhQr0ouQd",
+      "name" : "Abbey Brewing Company",
+      "zipCode" : "33139"
+    },
+    "-LXR-ge0JkSpG-LBnvmY" : {
+      "address" : "565 NW 24th St",
+      "beers" : {
+        "-LXV5JvP-mZ_Ihs_wPBn" : {
+          "beerName" : "La Rubia",
+          "description" : "the lightest beer we brew. However, this beer does not lack in flavor. It has a nice crisp bitterness to it with a slight bready and sweet flavor. This beer is brewed for the beautiful hot weather we get here in Miami. La Rubia is a combination of German Pilsner Malts, British Crystal Malts, Czech Saaz Hops and German Ale Yeast, making this beer a true American Blonde Ale. It pairs excellent with your salad, seafood and chicken. Serve this beer in a classic pilsner flute.",
+          "key" : "-LXV5JvP-mZ_Ihs_wPBn",
+          "type" : "Blonde Ale"
+        },
+        "-LXV61RhipcoypHCz9tR" : {
+          "beerName" : "Pop’s Porter",
+          "description" : "Gold Medal winner at GABF is made with a blend of roasted malts that give this beer a nice, roasty aroma with hints of chocolate and coffee. These malts also contribute to the deep dark color of the beer. As you sip on Pop’s Porter, take a deep breath and inhale the aromas as you enjoy the roasty and almost toffee caramel-like flavor as it finishes with a smooth dry end. This beer pairs excellent with smoked or grilled food. It also goes very well with a nice cigar. Serve this beer in a nonick pint glass.",
+          "key" : "-LXV61RhipcoypHCz9tR",
+          "type" : "Porter"
+        },
+        "-LXV61S8_lG0OPcwsKsp" : {
+          "beerName" : "Wynwood IPA",
+          "description" : "has a nice, citrusy hop aroma and bitterness that is balanced with a slight caramel sweetness. We dry hop this beer, meaning we toss more hops in the vat once it has finished fermenting to give it its unforgettable aroma. This beer is an IPA drinkers IPA.  We use purely American Hops and premium two-row barley with British Crystal Malts to help balance out this hop forward beer. The Wynwood IPA goes excellent with a burger, sharp cheeses and spicy foods. Serve this beer in a nonick pint glass.",
+          "key" : "-LXV61S8_lG0OPcwsKsp",
+          "type" : "IPA"
+        },
+        "-LXV61SJD5EG3OCpmGhe" : {
+          "beerName" : "Father Francisco",
+          "description" : "named after the first Jesuit Priest that setup a mission at the Miami River in the early 1500s. This golden, light bodied brew has aromatic notes of cloves and other spices along with fruity esters. The candy sugar used in the beer lightens the body and increases the alcohol to create an easy going effervescent ale. CHEERS!",
+          "key" : "-LXV61SJD5EG3OCpmGhe",
+          "type" : "Golden Ale"
+        },
+        "-LXV6ga95A1IlkcnXxFy" : {
+          "beerName" : "Series, Seasonals & Limited Edition",
+          "description" : "We brew a variety of seasonal and limited offerings including hoppy, Belgian, German and American inspired ales and lagers at our Taproom in Miami. This includes our Barrel Aged, Experimental and Origins series which we brew with a local name and history.",
+          "key" : "-LXV6ga95A1IlkcnXxFy",
+          "type" : "Specialty"
+        }
+      },
+      "city" : "Miami",
+      "key" : "-LXR-ge0JkSpG-LBnvmY",
+      "name" : "Wynwood Brewing Company",
+      "zipCode" : "33127"
+    },
+    "-LXR07bk2UDald0qK508" : {
+      "address" : "55 NW 25th St",
+      "beers" : {
+        "-LXV7sRXT1OxeoCGnAJF" : {
+          "beerName" : "LULO SOUR",
+          "description" : "A refreshing sour that surprises with a boost of fruity aromas. It starts fruity-sweet and then turns into a slightly tart and sour finish staying true to Lulo: a Colombian original.",
+          "key" : "-LXV7sRXT1OxeoCGnAJF",
+          "type" : "Sour"
+        },
+        "-LXV7sRrvnCbXRESzKuP" : {
+          "beerName" : "GUAVA SOUR",
+          "description" : "We put guayaba in this slightly sour, deliciously refreshing unfiltered beer with a low enough ABV to throw down a few!",
+          "key" : "-LXV7sRrvnCbXRESzKuP",
+          "type" : "Sour"
+        },
+        "-LXV7sS1pCVq9C9Y4rkr" : {
+          "beerName" : "SPANGLISH",
+          "description" : "Inspired by our Latin roots, crisp and refreshing, perfect for a hot Miami day.",
+          "key" : "-LXV7sS1pCVq9C9Y4rkr",
+          "type" : "Lager"
+        },
+        "-LXV8JM-ac6fS_5V-Rpt" : {
+          "beerName" : "LA YUMA (DARK LAGER)",
+          "description" : "Very easy drinking, with a malty finish. You won’t have just one!",
+          "key" : "-LXV8JM-ac6fS_5V-Rpt",
+          "type" : "Lager"
+        },
+        "-LXV8JMBCqla2bjCYYhK" : {
+          "beerName" : "MANGOLANDIA (MANGO BLONDE ALE)",
+          "description" : "Did you ever wake up from the sound of ripe mangos falling on your roof? This bright and sessionable Blonde Ale is Miami Summer in a glass.",
+          "key" : "-LXV8JMBCqla2bjCYYhK",
+          "type" : "Blonde Ale"
+        },
+        "-LXV8JMIZsZWIBwmIhUT" : {
+          "beerName" : "PER’LA COFFEE PORTER",
+          "description" : "Our traditional porter, cold-infused with a custom blend of medium and dark roasted Brazilian coffee. Its rich and smooth roast flavor will have you ditching your afternoon cafecito.",
+          "key" : "-LXV8JMIZsZWIBwmIhUT",
+          "type" : "Porter"
+        },
+        "-LXV8ZR_NLZvTiFfr1mf" : {
+          "beerName" : "TRIGO IPA",
+          "description" : "For IPA lovers: a hoppy and bitter IPA with a prominent aroma from Nugget, Citra and Galaxy hops. We added some wheat for extra mouthfeel and complexity.",
+          "key" : "-LXV8ZR_NLZvTiFfr1mf",
+          "type" : "IPA"
+        },
+        "-LXV8ZRiEss0c5J6rKR1" : {
+          "beerName" : "ARROZ CON MANGO",
+          "description" : "What happens when you brew with rice flakes, mango, ginger and habanero? Our Cuban friends would call that un Arroz con Mango. Try this arromatic Strong Ale with a warming aftertaste.",
+          "key" : "-LXV8ZRiEss0c5J6rKR1",
+          "type" : "Special Ale"
+        },
+        "-LXV8ZRo5JjHH7Tor-L2" : {
+          "beerName" : "BELGIAN GATOR ALE",
+          "description" : "Handle with care! Don’t be fooled by its bright golden color and delicate aromas of fruit and spices. Before you know it, you’ll be its prey…",
+          "key" : "-LXV8ZRo5JjHH7Tor-L2",
+          "type" : "Belgian Ale"
+        }
+      },
+      "city" : "Miami",
+      "comments" : {
+        "-LXedCtAsq6ugPYLfw1S" : {
+          "comment" : "My favorite Wynwwod brewery!",
+          "date" : "Fri, Feb 1, 2019 2:59 PM",
+          "key" : "-LXedCtAsq6ugPYLfw1S",
+          "name" : "Guest"
+        }
+      },
+      "key" : "-LXR07bk2UDald0qK508",
+      "name" : "Veza Sur Brewing Co.",
+      "zipCode" : "33127"
+    },
+    "-LXR18F4KAXjnRm0u9yH" : {
+      "address" : "325 NW 24th St",
+      "beers" : {
+        "-LXVJPxzv4HXX1BBLxtW" : {
+          "beerName" : "Havana Lager",
+          "description" : "Easy-drinking and smooth, this is the quintessential lager to enjoy while watching the sun set over Miami. Havana Lager pours brightly, with a beautiful sunburst-orange hue and foamy white head. Toasted malt characters envelop the palate, giving this beer a slight malty sweetness. Finishing crisp and clean, it will have you coming back for more.",
+          "key" : "-LXVJPxzv4HXX1BBLxtW",
+          "type" : "Lager"
+        },
+        "-LXVJPyJ-lTZkeFCn8X2" : {
+          "beerName" : "Sola IPA",
+          "description" : "Like the sun’s rays, Sola IPA glows with a golden veil. Four hop varieties give Sola an intensely juicy, tropical, bright citrus aroma and flavor, complemented by a touch of toasted malt character.",
+          "key" : "-LXVJPyJ-lTZkeFCn8X2",
+          "type" : "IPA"
+        },
+        "-LXVJPyTYHNy1_H_LEee" : {
+          "beerName" : "Stiltsville Pilsner",
+          "description" : "A Miami-style pilsner that’s loaded with citrus hop character.  Our opus to the renegade village on stilts in Biscayne Bay where weekend residents celebrate the peace, tranquility and spirit of Stiltsville that will live on for eternity. Stiltsville Pilsner balances big, fruity hop aromas with the flavors of a light, crisp lager. Miami, meet your pilsner.",
+          "key" : "-LXVJPyTYHNy1_H_LEee",
+          "type" : "Pilsner"
+        },
+        "-LXVJoMBBVipCb2hs5Jc" : {
+          "beerName" : "Deck the Walls",
+          "description" : "Deck the Walls is a big, flavorful spiced imperial porter. Aromas of cinnamon, cardamom and ginger are balanced by roasted chocolate malt notes. Each sip is complex, with a clean finish. This is the perfect pairing to your holiday celebrations.",
+          "key" : "-LXVJoMBBVipCb2hs5Jc",
+          "type" : "Porter"
+        },
+        "-LXVJoMR9-ZlBaHjBbek" : {
+          "beerName" : "Más Hops",
+          "description" : "More hops” often has little place in the world of well-balanced beers, that is until now. Más Hops Double IPA pushes the limits. High hops meets high refreshment in this hugely aromatic and flavorful IPA. A bouquet of pine and citrus sets your palate up to appreciate the flavors of orange and grapefruit rind. A sharp hoppy bitterness is balanced by a pleasant, malty body. Más Hops is a beer that truly comes alive in the contrasts.",
+          "key" : "-LXVJoMR9-ZlBaHjBbek",
+          "type" : "IPA"
+        },
+        "-LXVJoM_5RDkXQX5rd18" : {
+          "beerName" : "Rosé Ale",
+          "description" : "Rosé Ale is an innovative beer inspired by the classic Rosé wine. With a touch of tannins, a splash of Zinfandel grape, a hint of blueberry and subtle sweetness, this clear-filtered, deep pink beer is perfect for wine and beer fans alike.",
+          "key" : "-LXVJoM_5RDkXQX5rd18",
+          "type" : "Special Ale"
+        }
+      },
+      "city" : "Miami",
+      "key" : "-LXR18F4KAXjnRm0u9yH",
+      "name" : "Concrete Beach Brewery",
+      "zipCode" : "33127"
+    },
+    "-LXR1LP1SCUn3X50c2dx" : {
+      "address" : "120 NW 24th St",
+      "beers" : {
+        "-LXVMWwKG0atuoa5sp4r" : {
+          "beerName" : "El Jefe",
+          "description" : "A traditional German Hefeweizen in it’s core, but with the addition of fresh coconut flakes for a taste of South Florida and it’s beautiful surrounding beaches.",
+          "key" : "-LXVMWwKG0atuoa5sp4r",
+          "type" : "Hefeweizen"
+        },
+        "-LXVMWwcB9PJNXq7idCt" : {
+          "beerName" : "Amber Waves",
+          "description" : "Amber Waves Amber Ale focuses on the malts, but has a nice balance of hop character. Expect a light body with a nice toasted malt characteristic and slight fruitines",
+          "key" : "-LXVMWwcB9PJNXq7idCt",
+          "type" : "Amber Ale"
+        },
+        "-LXVMWwmwN7pp2SjO7uB" : {
+          "beerName" : "Hops 4 Teacher IPA",
+          "description" : "Hops 4 Teacher India Pale Ale is generously Citra hopped for a citrusy and juicy tasting experience with notes of grapefruit and passionfruit.",
+          "key" : "-LXVMWwmwN7pp2SjO7uB",
+          "type" : "IPA"
+        },
+        "-LXVMtTdyuwqi50zD83y" : {
+          "beerName" : "Stush",
+          "description" : "Stush Berliner Weisse is a sour ale with a tart and refreshing lemon zest.",
+          "key" : "-LXVMtTdyuwqi50zD83y",
+          "type" : "Sour"
+        },
+        "-LXVMtTwG5nh5dxTLGxU" : {
+          "beerName" : "What’s In A Name",
+          "description" : "A refreshing light and crisp American Lager double dry-hopped with Lemondrop hops.",
+          "key" : "-LXVMtTwG5nh5dxTLGxU",
+          "type" : "Lager"
+        },
+        "-LXVMtU7ieHPkNnEyo5M" : {
+          "beerName" : "Pecans Are Forever",
+          "description" : "This Imperial Stout was brewed in collaboration with Southern Grist Brewing out of Nashville and was infused with fresh pecans, cocoa nibs, vanilla, jaggery, and maple syrup.",
+          "key" : "-LXVMtU7ieHPkNnEyo5M",
+          "type" : "Stout"
+        }
+      },
+      "city" : "Miami",
+      "key" : "-LXR1LP1SCUn3X50c2dx",
+      "name" : "J Wakefield Brewing",
+      "zipCode" : "33127"
+    },
+    "-LXZHxDB-rufbkiQg9T1" : {
+      "address" : "7235 NE 4th Ave",
+      "beers" : {
+        "-LX_HZqYWhmj1SnmaKcf" : {
+          "beerName" : "IPA",
+          "description" : "The balance between bitter & sweet is reminiscent of traditional English Style Pale Ales or EBS’s (English Style Bitters), rather than the bitterness-aroma element that is the staple of modern American style IPA’s.",
+          "key" : "-LX_HZqYWhmj1SnmaKcf",
+          "type" : "IPA"
+        },
+        "-LX_HZqxkNikXf9CGB7n" : {
+          "beerName" : "AMERICAN WHEAT",
+          "description" : "he flavor is characterized by a grainy and honey undertone with low hop bitterness and a fruity \u001Efinish.",
+          "key" : "-LX_HZqxkNikXf9CGB7n",
+          "type" : "Wheat Ale"
+        },
+        "-LX_HZr79ocYGhOzTwzp" : {
+          "beerName" : "BOUSA TRIPEL",
+          "description" : "Usually comparable with a Belgian Style Golden-Ale but with a noticeable complement of malt sweetness due to the larger grain bill. Our Tripel Ale uses a single base malt and relies on a unique Belgian yeast strain to develop its yeasty complexity.",
+          "key" : "-LX_HZr79ocYGhOzTwzp",
+          "type" : "Golden Ale"
+        },
+        "-LX_KT5M_L_DbqmA9HOL" : {
+          "beerName" : "Mayami Blonde Ale",
+          "description" : "The principal native tribe in the region that is now Miami-Dade County was the Calusa (renamed Tequesta by de Leon), whose members built villages along the Miami River. The name Miami comes from the Calusa word \"Mayami,\" meaning \"Big Water\"",
+          "key" : "-LX_KT5M_L_DbqmA9HOL",
+          "type" : "Blonde Ale"
+        },
+        "-LX_KT5j3cO27AcRD11V" : {
+          "beerName" : "La Picara IPA",
+          "description" : "A classical take on the American IPA. Casacade hops.",
+          "key" : "-LX_KT5j3cO27AcRD11V",
+          "type" : "IPA"
+        },
+        "-LX_KT5ugHzuaWwho5eG" : {
+          "beerName" : "Pho Tom Gose",
+          "description" : "Inspired by the famous Vietnamese pho soup, with lemon grass, coriander, ginger and coconut water,",
+          "key" : "-LX_KT5ugHzuaWwho5eG",
+          "type" : "Gose"
+        },
+        "-LX_OQ-AV1Ithfet47em" : {
+          "beerName" : "Honey Brown",
+          "description" : "Collaboration with Barcode Meadery. Brown ale sweetened with a dash of smoked honey with a hint of hazelnut.",
+          "key" : "-LX_OQ-AV1Ithfet47em",
+          "type" : "Special Ale"
+        },
+        "-LX_OQ-eBtBdW6LVotOs" : {
+          "beerName" : "Tanned Pilsner",
+          "description" : "The beer was born to be enjoyed in the hot Miami Sun. We use a very specific Scandinavian yeast strain in this recipe as well as inspiration from some of the best craft and macro Pilsner Breweries in the world. A true homage to the most consumed beer style in History.",
+          "key" : "-LX_OQ-eBtBdW6LVotOs",
+          "type" : "Pilsner"
+        },
+        "-LX_OQ-qtkWp2eY3ILRh" : {
+          "beerName" : "Smoked On The Nitro (Nitro)",
+          "description" : "Cherry wood smoked ale. \"They burned down the gambling house, it died with awful ground.\"",
+          "key" : "-LX_OQ-qtkWp2eY3ILRh",
+          "type" : "Specialty"
+        }
+      },
+      "city" : "Miami",
+      "key" : "-LXZHxDB-rufbkiQg9T1",
+      "name" : "Bousa Brewing",
+      "zipCode" : "33138"
+    },
+    "-LXZI8Ur8YAdxdDMe2Hp" : {
+      "address" : "1588 NW 7th St",
+      "beers" : {
+        "-LX_THlc5OSvpWVACoz9" : {
+          "beerName" : "90 Mile",
+          "description" : "Cubans, in the early 1960s, began to flee their homeland from an oppressive communist government. They crossed the 90 miles of ocean to Florida where they found the United States waiting to accept and help them. In 2014, while a couple of Cuban descendants tried to open up their brewery (NightLife) a couple of Americans opened up their doors and helped (Blue Blood). This collaborative beer was made to commemorate the brotherhood that started with our grandparents and still carries on today. At NightLife we are all about the story, and this one is ours.",
+          "key" : "-LX_THlc5OSvpWVACoz9",
+          "type" : "IPA"
+        },
+        "-LX_THm12hLHBTdVvqlo" : {
+          "beerName" : "Spitfire Redhead",
+          "description" : "The sailing age, an age of wonder and exploration. This is the time when freedom laid not in some foreign land, but instead on the high seas, though this freedom did not come without peril. From 1650s to the mid 1700s the Caribbean and coasts of Florida were havens for some of the most dangerous people to roam the open waters. From that era there are only myths or legends of a ship called the SPITFIRE, and she was captained by a fierce woman with red hair. It was said that her hair was so red that it was made from the fires of hell itself.",
+          "key" : "-LX_THm12hLHBTdVvqlo",
+          "type" : "Specialty"
+        },
+        "-LX_THmC8zmOZ6kprrDJ" : {
+          "beerName" : "Daring Brunette",
+          "description" : "During the late 1930s and early 1940s, the whole of Europe was thrown into the maelstrom of battle. Germany, after signing a nonaggression pact with Russia, began to conquer the continent. During this time the United States had claimed neutrality, but were supplying materials to England. Germany then violated the nonaggression pact they had with Russia, and so the US began to supply them as well. On December 7, 1941, a day that will live on in infamy, Japan bombed Pearl Harbor, Hawaii. This prompted the United States formal entry into the global conflict.",
+          "key" : "-LX_THmC8zmOZ6kprrDJ",
+          "type" : "Special Ale"
+        },
+        "-LX_TZxtLHpWwXXdlvyf" : {
+          "beerName" : "Gunfighter Blonde",
+          "description" : "The Volstead Act became national law in the 1920s. Prohibition begins, the death of the legal brewing and distilling culture in the United States is in full swing, but a new power is on the rise. The Mob became so engrossed in the illegal production of booze that it almost seems as if prohibition was just a myth. However business seldom ran smoothly, and in this industry of illegal activity the price for rocking the boat was death. Miami in the 1920s began to boom because of the local authorities lax posture to gambling and rarely enforcing prohibition.",
+          "key" : "-LX_TZxtLHpWwXXdlvyf",
+          "type" : "Hefeweizen"
+        },
+        "-LX_TZyDlqsy-XMX57KQ" : {
+          "beerName" : "Seasonal Flight to Freedom",
+          "description" : "The Freedom Flights of the 1960s and 70s had a huge impact on the history of Miami. It is estimated that during its eight-year run that 300,000 Cuban refugees were brought to Miami. It was a sad time for Cubans whom had seen their freedoms and liberty stripped away by the Castro Regime, and had to flee their homeland in search of the ability to live out their lives. This beer is dedicated to the men and women whom operated those Freedom Flights to help strangers escape from tyranny.",
+          "key" : "-LX_TZyDlqsy-XMX57KQ",
+          "type" : "Golden Ale"
+        },
+        "-LX_TZyOxkuAN7dklHRV" : {
+          "beerName" : "Thunder Bird",
+          "description" : "Cities are interesting creatures. They evolve slowly, creating hidden gems, and outstanding experiences if you know where to look. The only way to truly find these gems is to go for a slow cruise down the main strip, and walk around to see the sights. Either way, just by you exploring, you're adding to the city's history and NightLife.",
+          "key" : "-LX_TZyOxkuAN7dklHRV",
+          "type" : "Stout"
+        }
+      },
+      "city" : "Miami",
+      "key" : "-LXZI8Ur8YAdxdDMe2Hp",
+      "name" : "Nightlife Brewing Company",
+      "zipCode" : "33125"
+    },
+    "-LXZIGkPR9CMYlreCfme" : {
+      "address" : "7360 SW 41st St",
+      "beers" : {
+        "-LX_UEaAdRMBAIwnKSzv" : {
+          "beerName" : "P.SWAYZE",
+          "description" : "ABV: 6.6% | A local favorite, P. Swayze’s amazing aroma, juicy flavor, and silky mouthfeel will keep you coming back.",
+          "key" : "-LX_UEaAdRMBAIwnKSzv",
+          "type" : "IPA"
+        },
+        "-LX_UEaRCBNke-ziLCy9" : {
+          "beerName" : "AVENGE ME",
+          "description" : "ABV: 5.3% | Classic Irish Red with a hint of caramel and a hint of roast.",
+          "key" : "-LX_UEaRCBNke-ziLCy9",
+          "type" : "Specialty"
+        },
+        "-LX_UEadcR1HDN4SoYF9" : {
+          "beerName" : "LINCOLN’S BEST SPARKLING ALE",
+          "description" : "ABV: 5.5% | An old school recipe brewed with modern techniques.  Crisp and refreshing…and our Brewmaster says it will make you 47% better at singing karaoke.",
+          "key" : "-LX_UEadcR1HDN4SoYF9",
+          "type" : "Golden Ale"
+        },
+        "-LX_UXl5H-4kZIAzSTPF" : {
+          "beerName" : "CLEVER GIRL HEFEWEIZEN",
+          "description" : "ABV: 4.5% | Just a chill, easy to drink wheat beer with a hint of banana and spice.",
+          "key" : "-LX_UXl5H-4kZIAzSTPF",
+          "type" : "Hefeweizen"
+        },
+        "-LX_UXlSQdZFgDH7znx-" : {
+          "beerName" : "CHET TRIPEL",
+          "description" : "ABV: 8.2% | Separating itself from most American Tripels, this beer drinks dry and spicy like its Belgian counterparts.",
+          "key" : "-LX_UXlSQdZFgDH7znx-",
+          "type" : "Belgian Ale"
+        },
+        "-LX_UXldxFUYrbbSSSAj" : {
+          "beerName" : "\"FRoC” FABIO ROLLERCOASTER CATASTROPHE BLONDE",
+          "description" : "ABV: 4.6% | Bready and full-flavored blonde ale with hints of biscuit.",
+          "key" : "-LX_UXldxFUYrbbSSSAj",
+          "type" : "Blonde Ale"
+        },
+        "-LX_Uhuj7H61B_QwMxma" : {
+          "beerName" : "HAPPY BIRTHDAY IPA SERIES",
+          "description" : "ABV: 7.2% | Our rotating IPA series celebrating the birthdays of actors, countries, regulars, and whatever else we decide.  Different hops every time allows us, and our guests, to explore the wide and delicious range of hops in the world.",
+          "key" : "-LX_Uhuj7H61B_QwMxma",
+          "type" : "IPA"
+        },
+        "-LX_Uhv7VtrxTUrRG6aH" : {
+          "beerName" : "MOVING PICTURES SWEET STOUT",
+          "description" : "ABV: 5.1% | A lactose-free sweet stout with smooth roast and chocolate flavors.",
+          "key" : "-LX_Uhv7VtrxTUrRG6aH",
+          "type" : "Stout"
+        }
+      },
+      "city" : "Miami",
+      "key" : "-LXZIGkPR9CMYlreCfme",
+      "name" : "Lincoln's Beard Brewing Co.",
+      "zipCode" : "33155"
+    },
+    "-LXZITZwIPNZofeqwHMe" : {
+      "address" : "8000 NW 25th St #500",
+      "beers" : {
+        "-LX_VJKALt0uQxWK2RJh" : {
+          "beerName" : "Saison (Pilsner, Pale and Wheat)",
+          "description" : "Our combination of Pilsner, Pale and Wheat malts along with French hops and an authentic Belgian yeast creates a beer with a distinguished taste, a generous bitterness and a nice balance between body and bite. Unfiltered to keep its character intact.",
+          "key" : "-LX_VJKALt0uQxWK2RJh",
+          "type" : "Specialty"
+        },
+        "-LX_VJKV1ev-sF5hGJA-" : {
+          "beerName" : "Miami Pale Ale",
+          "description" : "Brewed in the tradition of a European-style Pale Ale, the Scotch malt foundation lays the groundwork for its unique flavor and character. A heavy dry hopping lends aroma and flavor to this beer, but keeps the bitterness factor low.",
+          "key" : "-LX_VJKV1ev-sF5hGJA-",
+          "type" : "IPA"
+        },
+        "-LX_VJKecR0mm8HKp7pV" : {
+          "beerName" : "La Colada",
+          "description" : "Cold brewed Cuban coffee is the star here with its intense aromatics and lasting coffee finish. A mix of chocolate and roasted malts along with lactose sugars give our Porter a unique flavor profile.",
+          "key" : "-LX_VJKecR0mm8HKp7pV",
+          "type" : "Porter"
+        },
+        "-LX_VYN-QWAC2yuDecDY" : {
+          "beerName" : "Kapitan's Kolsch",
+          "description" : "Crisp and light bodied German style lager continues an easy drinking tradition.",
+          "key" : "-LX_VYN-QWAC2yuDecDY",
+          "type" : "Golden Ale"
+        },
+        "-LX_VYNIzw09rd7pxy_f" : {
+          "beerName" : "Double Nine IPA",
+          "description" : "Pilsner, Pale and Wheat  Intense malty foundation built on Scotch malt lending caramel and honey notes. Three different hops add to the bitterness and citrus notes while a heavy dry hopping brings forth hop aromatics.",
+          "key" : "-LX_VYNIzw09rd7pxy_f",
+          "type" : "IPA"
+        }
+      },
+      "city" : "Doral",
+      "key" : "-LXZITZwIPNZofeqwHMe",
+      "name" : "Biscayne Bay Brewing",
+      "zipCode" : "33122"
+    },
+    "-LX_5jaNOnaRzkicUZ7y" : {
+      "address" : "5100 NW 72nd Ave A-1",
+      "beers" : {
+        "-LX_Xcm5jBq7pzGmlsYh" : {
+          "beerName" : "El Farito IPA",
+          "description" : "Boasting an intense hoppy nose of citrus and tropical fruit, this drinkable IPA will satisfy your hop fix anytime of the day. Named after Key Biscayne’s Cape Florida lighthouse, better known to locals as “El Farito”.",
+          "key" : "-LX_Xcm5jBq7pzGmlsYh",
+          "type" : "IPA"
+        },
+        "-LX_XcmPqpswpwJSFogR" : {
+          "beerName" : "Freedom Tower",
+          "description" : "We named our Amber Ale after Miami’s most recognizable landmark, so called for its deep ties to our local Cuban-American population. This ale features malt-y caramel flavors with subtle hints of stone fruit.",
+          "key" : "-LX_XcmPqpswpwJSFogR",
+          "type" : "Special Ale"
+        },
+        "-LX_Xcm_HKk2SIH_goC_" : {
+          "beerName" : "Byronic Brown",
+          "description" : "Byronic Brown is a complex and delicately balanced beer that exhibits nutty and bready flavors, with mild caramel and dry cacao in support.",
+          "key" : "-LX_Xcm_HKk2SIH_goC_",
+          "type" : "Special Ale"
+        },
+        "-LX_XuncwVwnX0nRiaCo" : {
+          "beerName" : "La Finca Miami",
+          "description" : "An age-old beer style that originated in the farmhouses of Belgium. Crisp, citrus-y and refreshing, La Finca Miami is the perfect companion on a hot day.",
+          "key" : "-LX_XuncwVwnX0nRiaCo",
+          "type" : "Wheat Ale"
+        },
+        "-LX_XunxW6tmWoxEBGCE" : {
+          "beerName" : "La Playita",
+          "description" : "Old and New worlds collide in this hop-accented pils, where German brewing tradition meets modern American craft innovation.",
+          "key" : "-LX_XunxW6tmWoxEBGCE",
+          "type" : "Pilsner"
+        },
+        "-LX_Xuo7NfXqDGuh0a-h" : {
+          "beerName" : "Rye-lingual",
+          "description" : "Suggestions of luscious bittersweet baker’s chocolate and a touch of smooth cold-brewed coffee coat the tongue.",
+          "key" : "-LX_Xuo7NfXqDGuh0a-h",
+          "type" : "Stout"
+        },
+        "-LX_Yao9TU9toOyOrefR" : {
+          "beerName" : "Autumn: Wet-hopped Rye IPA",
+          "description" : "Our Wet-hopped Rye IPA is a celebration of both the hop harvest, and the beginning of Autumn.  Hopped with Amarillo and Centennial, and finished with Simcoe “wet” hops; this IPA is loaded with fresh unadulterated hop aroma.  Juicy mango, apricot, pomelo, and sticky pine resin explode on the palate, followed by biscuit and spice on the finish.  Enjoy fresh, preferably with family and friends.",
+          "key" : "-LX_Yao9TU9toOyOrefR",
+          "type" : "IPA"
+        },
+        "-LX_YaoUpmobez5uqUr3" : {
+          "beerName" : "Spring: Double IPA",
+          "description" : "Triple hopped and brewed with over 6lbs of hops per BBL of New Zealand Nelson Sauvin and Motueka.  Like a tropical fruit salad, an explosion of sweet mango, juicy passionfruit, papaya, lychee, gooseberry, and ruby red spring forth. The perfect beer with which to welcome the start of tropical fruit season.",
+          "key" : "-LX_YaoUpmobez5uqUr3",
+          "type" : "IPA"
+        },
+        "-LX_YaoeR7Q_jufILbER" : {
+          "beerName" : "Summer: Southeast Session IPA",
+          "description" : "Our Southeast Session IPA is hoppy and refreshing, designed with the hot Miami Summer in mind.",
+          "key" : "-LX_YaoeR7Q_jufILbER",
+          "type" : "IPA"
+        },
+        "-LX_Yzd69286eUUE2NLq" : {
+          "beerName" : "Winter: India Black Ale",
+          "description" : "Chinook, hops give this beer the refreshing and unmistakable aroma of resiny pine with hints of bitter grapefruit. If the smell of hiking through a pine forest with a cup o’ Joe in hand is your thing, then this is your beer.",
+          "key" : "-LX_Yzd69286eUUE2NLq",
+          "type" : "IPA"
+        },
+        "-LX_YzdW2R-9Vey58OXm" : {
+          "beerName" : "Abbey 10",
+          "description" : "This gorgeous dark-maroon ale is the boldest in the Abbey Series, and our twist on the Belgian Quadrupel style.",
+          "key" : "-LX_YzdW2R-9Vey58OXm",
+          "type" : "Special Ale"
+        },
+        "-LX_YzdjqxwSSY2I2rpz" : {
+          "beerName" : "Abbey 6",
+          "description" : "This dark mahogany ale is loosely based on the classic Dubbel style brewed by the Trappist monasteries of Belgium.",
+          "key" : "-LX_YzdjqxwSSY2I2rpz",
+          "type" : "Special Ale"
+        },
+        "-LX_ZcZ7tku7-Klar4cN" : {
+          "beerName" : "Black Mulberry Stout",
+          "description" : "Black Mulberries are the succulent and delicious fruit of the Morus Nigra tree.",
+          "key" : "-LX_ZcZ7tku7-Klar4cN",
+          "type" : "Stout"
+        },
+        "-LX_ZcZTQWnULSvX8Hqu" : {
+          "beerName" : "Frank the Tank",
+          "description" : "Dark chocolate and french press coffee dominate the palate, accompanied by a fruity bouquet of blackberry, dark cherry, and raisin, with hints of brown sugar.",
+          "key" : "-LX_ZcZTQWnULSvX8Hqu",
+          "type" : "Stout"
+        },
+        "-LX_ZcZg6TuEKYtR6pKb" : {
+          "beerName" : "London-style Porter",
+          "description" : "A throwback porter, inspired by those produced in London at the turn of the 20th century.  Brown malt paired with judicious amounts of black malt creates the impression of roasted nuts, unsweetened cacao, and coffee in this chocolate-brown brew. UK Fuggle hops deliver their unmistakable cedar-like wood character, and a classic British yeast provides dark fruit complexity.  For 150 years, the drink of choice for London’s working class: this unapologetically robust beer was never intended for “polite society.”",
+          "key" : "-LX_ZcZg6TuEKYtR6pKb",
+          "type" : "Porter"
+        }
+      },
+      "city" : "Miami",
+      "key" : "-LX_5jaNOnaRzkicUZ7y",
+      "name" : "The Tank Brewing Co.",
+      "zipCode" : "33166"
+    }
+  }
+}

@@ -1,0 +1,283 @@
+/* General html and body */
+html {
+    position: relative;
+    min-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px; 
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+/* Navbar section*/
+.navbar {
+    background-color: white !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: black !important;
+    font-weight: 300px !important;
+}
+
+#logo {
+    width: 180px;
+    padding-left: 20px;
+}
+
+/* Our mission section*/
+.mission {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+}
+
+.mission-text {
+    width: 80%;
+    display: inline-block;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* The typewriter h1 sections*/
+.typewriter h1 {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; 
+    animation: 
+        typing 6s, /* Typing speed */
+        blink-caret .5s step-end infinite; /* Typewriter cursor speed */
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { max-width: 0;}
+    to { max-width: 100% }
+}
+
+/* The typewriter cursor effect */
+    @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+/* Brewery search section*/
+input {
+    width: 180px;
+    height: 36px;
+    padding: 5px;
+    margin: 5px;
+    caret-color: orange;
+}
+
+.btn {
+    font-weight:bold;
+    padding: 5px;
+    width: 100px;
+    background-color: black !important;
+    color: white !important;
+    border-color: black !important;
+}
+
+#map {
+    height: 600px;
+}
+
+.breweryResults {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.card-title {
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#addressBrewery {
+     margin-bottom: 0px;
+ }
+
+#nameBrewery {
+    margin-bottom: 0px;
+}
+
+/* Stay in the loop section */
+a {
+    color: black;
+    font-weight: bold;
+}
+
+.mvpImage {
+    height: 250px;
+}
+
+/* Beer search section */
+
+.beer-card {
+    background-color: black !important;
+    color: white !important;
+}
+
+#beer-search {
+    padding-top: 10px;
+}
+
+#beerResults{
+    padding-top:20px;
+}
+
+#beerResults img{
+    width: 150px;
+    border-radius: 20px;
+    float:left;
+}
+
+#beerResults h3{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#beerResults h5{
+    font-weight: 800;
+    padding-bottom: 17px;
+}
+
+#beerResults p{
+    padding-bottom: 10px;
+}
+
+#beerResults h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Similar beers section */
+#otherResults img {
+    width: 100px;
+    border-radius: 20px;
+    float: none;
+}
+#otherResults p {
+    font-weight: 600;
+}
+
+.showMe{
+    cursor: pointer;
+}
+
+/* GS 2/1 added to style information modal  */
+.beerList{
+    line-height: 150%;
+}
+.brewComments{
+    line-height: 150%;
+}
+.comment{
+    font-style: italic;
+}
+.commentHead{
+    font-size: 90% !important;
+}
+.brewComments{
+    display: none;
+}
+
+.details{
+    font-style: italic;
+    font-size: 85% !important;
+}
+.infoHeader{
+    background-color: rgba(224, 168, 0, 0.76);
+    margin: -20px;
+    margin-bottom: -17px;
+    padding: 15px 0px 15px 22px;
+}
+.beerType{
+    font-size: 90% !important;
+}
+a.modalLinks:hover{
+    color:black
+}
+a.modalLinks:active{
+    color:black
+}
+a.modalLinks:visited{
+    color:black
+}
+a.modalLinks:link{
+    color:black
+}
+.modalclose{
+    margin-right: 20px;
+}
+.card-heading {
+    background-color: rgb(238, 197, 62) !important;
+}
+
+h5 h4{
+margin-top: 5px;
+}
+
+.ourBeerLink {
+    font-weight: bold;
+}
+
+.commentsLink {
+font-weight: bold;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%; 
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(238, 197, 62);
+}
+
+/* Responsivness */
+@media screen and (max-width: 320px) {
+#logo {
+    width: 150px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+.carousel  { 
+    margin-top: 65px; 
+}
+}
+

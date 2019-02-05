@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="./assets/style/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/style/styleReg.css"/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/gif" href="Logomini.png"/>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Google Front -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="../Project1/assets/images/beerville2.png" alt="Beerville" id="logo">
+        </a>
+        <!-- End of logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="#quote">Breweries</a>
+                <a class="nav-item nav-link" href="#mvp">Beers</a>
+                <a class="nav-item nav-link" href="#bottomRegister">Register</a>
+            </div>
+         </div>
+    </nav>
+    <!-- End of nav bar -->
+
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    <!-- Start of Register Breweries -->
+    <div class="container-fluid registration">
+            <div class="row card-row">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="breweryRegister">
+                        <h1 class="text-center" id="bottomRegister" >Join Beerville! Register your Brewery</h1>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name Brewery</label>
+                                <input type="text" class="form-control" id="nameInput" aria-describedby="emailHelp" placeholder="Ex: My Brewery"> 
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Address</label>
+                                <input type="text" class="form-control" id="addressInput" placeholder="111 SE 1st St">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">City</label>
+                                <input type="text" class="form-control" id="cityInput" placeholder="Miami / FTL">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Zip code</label>
+                                <input type="text" class="form-control" id="zipCodeInput" placeholder="5 Digit">
+                            </div>
+                            <button id="submit" type="submit" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            <!-- Show New Brewery -->
+            <div class="col-sm-12 col-lg-4">
+                    <div id="resultBrewery"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of Register Breweries -->
+    <br>
+    <br>
+    <br>
+    <!-- List of Registered Breweries -->
+    <div class="container-fluid registeredBreweries">    
+        <!-- <div class="col-sm-12 col-lg-4"> -->
+            
+            <div class="card border-dark">
+                <div class="card-heading bg-dark">
+                    <h4 class="card-title">Registered Breweries</h4>
+                </div>
+                <div class="card-columns breweryResults">  
+                
+                </div>
+                <div class="modals">
+                    <!-- Beer Info Modal -->
+                    <div class='modal fade' id='beerModal' tabindex='-1' role='dialog' aria-labelledby='exampleModalLongTitle' aria-hidden='true'>
+                            <div class='modal-dialog' role='document'>
+                                <div class='modal-content'>
+                                    <div class='modal-header'>
+                                        <h5 class='modal-title' id='exampleModalLabel'>Add Beers to your Brewery</h5><br>
+                                        <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class='modal-body'> 
+                                            <div style="font-size:13px">You must have a name and type of beer for any entry</div>
+                                            <hr>
+                                        <form>
+                                            <div class='form-group'>
+                                                <input type='text' class='form-control' id='beerName1' placeholder='Beer Name'>
+                                                <input type='text' class='form-control' id='beerDesc1' placeholder='Beer Description'>
+                                                <span class="dropdown">Beer Type</span>
+                                                <select id="beerType1">
+                                                        <option value="">Select Type</option>
+                                                        <option value="IPA">IPA</option>
+                                                        <option value="Wheat Ale">Wheat Ale</option>
+                                                        <option value="Blonde Ale">Blonde Ale</option>
+                                                        <option value="Amber Ale">Amber Ale</option>
+                                                        <option value="Golden Ale">Golden Ale</option>
+                                                        <option value="Belgian Ale">Belgian Ale</option>
+                                                        <option value="Special Ale">Special Ale</option>
+                                                        <option value="Lager">Lager</option>
+                                                        <option value="Stout">Stout</option>
+                                                        <option value="Porter">Porter</option>
+                                                        <option value="Pilsner">Pilsner</option>
+                                                        <option value="Hefeweizen">Hefeweizen</option>
+                                                        <option value="Sour">Sour</option>
+                                                        <option value="Gose">Gose</option>
+                                                        <option value="Specialty">Specialty</option>
+                                                      </select>
+                                            </div>
+                                            <div class='form-group'>
+                                                    <input type='text' class='form-control' id='beerName2' placeholder='Beer Name'>
+                                                    <input type='text' class='form-control' id='beerDesc2' placeholder='Beer Description'>
+                                                    <span class="dropdown">Beer Type</span>
+                                                    <select id="beerType2">
+                                                            <option value="">Select Type</option>
+                                                            <option value="IPA">IPA</option>
+                                                            <option value="Wheat Ale">Wheat Ale</option>
+                                                            <option value="Blonde Ale">Blonde Ale</option>
+                                                            <option value="Amber Ale">Amber Ale</option>
+                                                            <option value="Golden Ale">Golden Ale</option>
+                                                            <option value="Belgian Ale">Belgian Ale</option>
+                                                            <option value="Special Ale">Special Ale</option>
+                                                            <option value="Lager">Lager</option>
+                                                            <option value="Stout">Stout</option>
+                                                            <option value="Porter">Porter</option>
+                                                            <option value="Pilsner">Pilsner</option>
+                                                            <option value="Hefeweizen">Hefeweizen</option>
+                                                            <option value="Sour">Sour</option>
+                                                            <option value="Gose">Gose</option>
+                                                            <option value="Specialty">Specialty</option>
+                                                          </select>
+                                                </div>
+                                                <div class='form-group'>
+                                                        <input type='text' class='form-control' id='beerName3' placeholder='Beer Name'>
+                                                        <input type='text' class='form-control' id='beerDesc3' placeholder='Beer Description'>
+                                                        <span class="dropdown">Beer Type</span>
+                                                        <select id="beerType3">
+                                                                <option value="">Select Type</option>
+                                                                <option value="IPA">IPA</option>
+                                                                <option value="Wheat Ale">Wheat Ale</option>
+                                                                <option value="Blonde Ale">Blonde Ale</option>
+                                                                <option value="Amber Ale">Amber Ale</option>
+                                                                <option value="Golden Ale">Golden Ale</option>
+                                                                <option value="Belgian Ale">Belgian Ale</option>
+                                                                <option value="Special Ale">Special Ale</option>
+                                                                <option value="Lager">Lager</option>
+                                                                <option value="Stout">Stout</option>
+                                                                <option value="Porter">Porter</option>
+                                                                <option value="Pilsner">Pilsner</option>
+                                                                <option value="Hefeweizen">Hefeweizen</option>
+                                                                <option value="Sour">Sour</option>
+                                                                <option value="Gose">Gose</option>
+                                                                <option value="Specialty">Specialty</option>
+                                                              </select>
+                                                    </div>
+                                                    <!-- <div class='form-group'>
+                                                            <input type='text' class='form-control' id='beerName4' placeholder='Beer Name'>
+                                                            <input type='text' class='form-control' id='beerDesc4' placeholder='Beer Description'>
+                                                            <span class="dropdown">Beer Type</span>
+                                                            <select id="beerType4">
+                                                                    <option value="">Select Type</option>
+                                                                    <option value="IPA">IPA</option>
+                                                                    <option value="Wheat Ale">Wheat Ale</option>
+                                                                    <option value="Blonde Ale">Blonde Ale</option>
+                                                                    <option value="Amber Ale">Amber Ale</option>
+                                                                    <option value="Golden Ale">Golden Ale</option>
+                                                                    <option value="Belgian Ale">Belgian Ale</option>
+                                                                    <option value="Special Ale">Special Ale</option>
+                                                                    <option value="Lager">Lager</option>
+                                                                    <option value="Stout">Stout</option>
+                                                                    <option value="Porter">Porter</option>
+                                                                    <option value="Pilsner">Pilsner</option>
+                                                                    <option value="Hefeweizen">Hefeweizen</option>
+                                                                    <option value="Sour">Sour</option>
+                                                                    <option value="Gose">Gose</option>
+                                                                    <option value="Specialty">Specialty</option>
+                                                                  </select>
+                                                        </div> -->
+                                                        <hr>
+                                                        <div style="font-size:13px">You must have a name and type of beer for any entry</div><br>
+                                            <button type='submit' class='btn btn-warning updateBeer' data-dismiss='modal'>Add Beer</button>
+                                        </div>
+                                    </div>
+                                     </form> 
+                                    </div>
+                                </div>
+                                <!-- End of Beer Info Modal -->
+                    
+                    <!-- Update Info Modal -->
+                    <div class='modal fade' id='infoModal' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+                        <div class='modal-dialog' role='document'>
+                            <div class='modal-content'>
+                                <div class='modal-header'>
+                                    <h5 class='modal-title' id='exampleModalLabel'>Update Brewery Info</h5>
+                                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span>
+                                    </button>
+                                </div>
+                                <div class='modal-body'> 
+                                    <form>
+                                        <div class='form-group'>
+                                            <input type='text' class='form-control' id='nameUpdate' placeholder='Brewery Name'>
+                                        </div>
+                                        <div class='form-group'>
+                                            <input type='text' class='form-control' id='addressUpdate' placeholder='Address'>
+                                        </div>
+                                        <div class='form-group'>
+                                            <input type='text' class='form-control' id='cityUpdate' placeholder='City'>
+                                        </div>
+                                        <div class='form-group'>
+                                            <input type='text' class='form-control' id='zipUpdate' placeholder='5 Digit Zip'>
+                                        </div> 
+                                        <button type='submit' class='btn btn-warning updateBrewery' data-dismiss='modal'>Confirm changes</button>
+                                    </div>
+                                </div>
+                                 </form> 
+                                </div>
+                            </div>
+                            <!-- End of Update Info Modal -->
+                </div>
+            </div>    
+    </div>
+<!-- End of List of Registered Breweries -->
+
+    <!--Footer -->
+    <footer class="text-center">
+        beerville ©
+    </footer>
+    <!--End of footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
+    <!-- Link app.js -->
+    <script type="text/javascript" src="./assets/javascript/reg.js"></script>
+
+    </body>
+</html>

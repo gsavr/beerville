@@ -1,0 +1,172 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    background-image: url("../images/brewery.png");
+    background-attachment: fixed;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    font-size: 16px; 
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 60px;
+}
+
+#bottomRegister{
+    margin-top: 10px;
+}
+
+#resultBrewery{
+    margin-top: 30px;
+}
+
+.registration{
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.cardBtn{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.card-group{
+    display: flex;
+    /* display: inline-block;  //this will make it big across */
+}
+
+.dropdown{
+    padding-left: 8px;
+    color: gray;
+}
+
+.beerList{
+    line-height: 150%;
+}
+
+input {
+    width: 180px;
+    height: 36px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#submit-btn {
+    width: 100px;
+    padding: 5px;
+}
+
+.card-title {
+    color: white;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#more1, #more2, #more3 {display: none;}
+#readMore1, #readMore2, #readMore3 {
+    margin-top: 15px;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: bold;
+    color: black !important;
+}
+
+#banner {
+    background-position: center bottom; 
+}
+
+.navbar {
+    background-color: white !important;
+}
+  
+.breweryResults {
+ /* overflow-y: scroll; */
+    overflow-x: scroll;
+    padding-right: 20px;
+} 
+  
+#logo {
+    width: 150px;
+}
+
+.mvpTitle {
+    color: black;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.mvpImage {
+    height: 260px;
+}
+
+#beerTypes {
+    padding-top: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%; 
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(238, 197, 62);
+    font-weight: bold;
+  }
+
+/* Result for Beer */
+#beerResults{
+    padding: 20px;
+}
+#beerResults img{
+    width: 100px;
+    border-radius: 20px;
+    float:left;
+}
+#beerResults h3{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#beerResults h5{
+    font-weight: 800;
+    padding-bottom: 17px;
+}
+
+#beerResults p{
+    padding-bottom: 10px;
+}
+/* brevery Register */
+.breweryRegister{
+    padding: 20px;
+}
+
+.breweryRegister h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.card-titleBewery{
+    color: black;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#addressBrewery{
+    padding-bottom: 10px;
+}
+
+.brewery-card{
+    margin: 10px;
+}
